@@ -24,7 +24,32 @@ echo -e "                      |____|_  /\___  >\___  >____/ \_/  \___  >__|   /
 echo -e "                             \/     \/     \/                \/       \/         ${NC}\n "
 echo                                                                     
 printf "${RED}                                 Welcome to PBRP installer ${NC}\n"
-echo -e
+echo
+printf "${RED}Checking for required packages... ${NC}\n"
+
+chkadb=$(which adb 2>/dev/null)
+chkfastboot=$(which fastboot 2>/dev/null)
+chkunzip=$(which unzip 2>/dev/null)
+if [[ ( "$chkadb" != "/usr/bin/adb") || ( "$chkfastboot" != "/usr/bin/fastboot") || ( "$chkunzip" != "/usr/bin/unzip") ]]; then
+    echo
+    printf "${RED}Not all required packages are installed...\n\nInstalling required packages...  ${NC}\n"
+    echo
+    printf "${cyan}Getting info about on linux disto..${NC}\n"
+    echo
+    grep -R ID_LIKE= /etc/os-release
+    echo
+        if ID_LIKE=arch; then
+            printf "${cyan}Arch based distro detected...\n\nInstalling arch stuff...\n${NC}\n"
+            sudo pacman -S android-tools unzip --noconfirm
+        elif ID_LIKE=debian; then
+            printf "${cyan}Debian based distro detected...\n\nInstalling debian stuff...\n${NC}\n"
+            sudo apt-get install android-tools-adb android-tools-fastboot unzip -y
+        fi
+else true;
+fi
+echo
+printf "${RED}All required packages are installed!${NC}\n"
+echo
 printf "${RED}Press enter if you are in bootloader mode... ${NC}\n"
 read
 printf "${RED}Getting stuff ready... ${NC}\n"
