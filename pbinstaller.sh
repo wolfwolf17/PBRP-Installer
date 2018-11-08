@@ -1,6 +1,6 @@
 #!/bin/bash
 #A script to flash PitchBlack Recovery from linux
-#sloppy20181014 alpha
+#sloppy20181108 v1.1
 blue='\033[0;34m'
 cyan='\033[0;36m'
 green='\e[0;32m'
