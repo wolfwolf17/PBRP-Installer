@@ -1,8 +1,11 @@
 
 
-**PitchBlack Recovery Installer for PC**
+#PitchBlack Recovery Installer for PC
 
-Usages:
+
+**Usages:**
+
+Linux
 
 ```bash
 
@@ -14,3 +17,16 @@ bash pbinstaller.sh
 
 ```
 
+Windows:
+
+Download this
+
+```bash
+
+https://github.com/firewolfxda/PBRP-Installer/archive/master.zip
+
+```
+
+Unzip it
+
+Open pbinstaller.bat
