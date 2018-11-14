@@ -1,6 +1,6 @@
 <h1 align="center">
 PitchBlack Recovery Installer for PC
-</h1">
+</h1>
 
 **Usages:**
 
