@@ -5,17 +5,17 @@ PitchBlack Recovery Installer for PC
 <div align="center">
 <!-- PBRP Versions-->
 <a href="#">
-   <img src="https://img.shields.io/badge/PBRP-v2.8.x--2.9.x-blue.svg"
+   <img src="https://img.shields.io/badge/PBRP-v2.8.x--2.9.x-blue.svg?style=flat-square"
      alt="PBRP Versions" />
  </a>
 <!-- Platforms -->
  <a href="#">
-    <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey.svg"
+    <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey.svg?style=flat-square"
     alt="Platforms">
  </a>
 <!-- Say Thanks -->
- <a href="#">
-    <img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"
+ <a href="https://saythanks.io/to/firewolfxda">
+    <img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg?style=flat-square"
       alt="PBRP Versions" />
   </a>
 
