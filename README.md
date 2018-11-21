@@ -25,7 +25,7 @@ PitchBlack Recovery Installer for PC
 Getting started
 </h2>
 
- **Linux:**
+ **Linux**
 
 - Open a terminal & type
 
@@ -57,12 +57,11 @@ Usages
 </h2>
 
 - Download and copy recovery flashable PBRP zip for your device to PBRP Installer folder
-- Goto recovey mode in your phone and connect it to your computer via usb
+- Goto fastboot mode in your phone and connect it to computer via usb
 - Windows users open pbinstaller.bat and follow from there
 - Linux user open a terminal in PBRP Installer folder and type bash pbinstaller.sh and follow from there
 
 
-Note: This installer will only work on A partition devices only. This instalelr will not work on devices that uses A/B partition like jesmine.
-~Should work fine with all PitchBlack Recovery 2.8.x & 2.9.x flashable zips.
-~Linux users need fastboot, adb & unzip Installed for this installer to work properly.
-The installer script auto detects most if not all arch & debain based distros & auto installs them. If you face any error contact us
+
+
+Note: This installer will only work on A partition devices. This installer will not work on devices that uses A/B partition like jesmine. It should work fine with all PitchBlack Recovery 2.8.x & 2.9.x flash able zips. Linux users need fastboot, adb & unzip Installed for this installer to work properly. The installer script auto detects most if not all arch & debian based distros & auto installs them. If you face any error contact us.
