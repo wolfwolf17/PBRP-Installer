@@ -25,7 +25,7 @@ PitchBlack Recovery Installer for PC
 Getting started
 </h2>
 
- **Linux**
+ **Linux:**
 
 - Open a terminal & type
 
