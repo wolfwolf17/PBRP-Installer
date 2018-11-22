@@ -16,7 +16,7 @@ PitchBlack Recovery Installer for PC
 <!-- Say Thanks -->
  <a href="https://saythanks.io/to/firewolfxda">
     <img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg?style=flat-square"
-      alt="PBRP Versions" />
+      alt="Say Thanks" />
   </a>
 
  </div>
